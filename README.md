@@ -31,5 +31,7 @@ $ docker-compose down
 Needs: Ubuntu, Python3
 
 ```
+export TELEGRAM_TOKEN=12345678:telegram_token_bot
+export TELEGRAM_BOT_NAME=Bender Bot Rodrigues
 $ cd src && pip install -r requirements.txt && python core.py
 ```
