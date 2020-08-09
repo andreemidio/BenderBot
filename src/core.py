@@ -35,7 +35,7 @@ def echo(update, context):
     if (update.message.text == "Oi Bender" or update.message.text == "oi bender" or
         update.message.text == "Oi bender" or update.message.text == "oi Bender"):
         context.bot.send_message(chat_id=update.effective_chat.id, 
-        text= "Oi, vamos tomar um Velho Fortran no Docker Bar?")
+        text= "Oi, vamos tomar um Velho Fortran? Estou no Heroku agora!")
     
     elif ("Muito Bom" in update.message.text or "muito bom" in update.message.text or
           "Muito bom" in update.message.text or "muito Bom" in update.message.text):

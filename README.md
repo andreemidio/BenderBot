@@ -21,6 +21,10 @@ Features a serem implementadas no longo prazo:
 ## With Docker
 
 ```
+// create a .env file and add:
+TELEGRAM_TOKEN=12345678:telegram_bot_token
+TELEGRAM_BOT_NAME=Bender Bot
+```
 $ docker-compose build
 $ docker-compose up
 $ docker-compose down
@@ -32,6 +36,6 @@ Needs: Ubuntu, Python3
 
 ```
 export TELEGRAM_TOKEN=12345678:telegram_token_bot
-export TELEGRAM_BOT_NAME=Bender Bot Rodrigues
+export TELEGRAM_BOT_NAME=Bender Bot
 $ cd src && pip install -r requirements.txt && python core.py
 ```

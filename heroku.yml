@@ -1,0 +1,8 @@
+build:
+    docker:
+        web: Dockerfile
+    config:
+        TELEGRAM_TOKEN: 627463256:AAETmG1liuUZXYOkCFf2vXjQezJAoVtmz0s
+        TELEGRAM_BOT_NAME: Bender Bot Rodrigues
+run:
+    web: bash -c "pip install -r requirements.txt && python core.py"
