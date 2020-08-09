@@ -1,0 +1,16 @@
+version: "3"
+services:
+    # python3
+    python3_bot:
+        restart: always
+        container_name: python3_bot
+        build:
+            context: .
+        volumes:
+            - "./src:/var/app"
+        ports:
+            - "8888:8888"
+        environment:
+            - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+            - TELEGRAM_BOT_NAME=${TELEGRAM_BOT_NAME}
+        command: bash -c "pip install -r requirements.txt && python core.py"

@@ -17,3 +17,19 @@ Features a serem implementadas no curto prazo:
 Features a serem implementadas no longo prazo:
 
 - Técnicas de Processamento de Linguagem Natural para que o bot interaja de forma semelhante à natual com os membros do grupo.
+
+## With Docker
+
+```
+$ docker-compose build
+$ docker-compose up
+$ docker-compose down
+```
+
+## Without Docker
+
+Needs: Ubuntu, Python3
+
+```
+$ cd src && pip install -r requirements.txt && python core.py
+```

@@ -1,0 +1,5 @@
+freeze
+python-telegram-bot
+requests
+bs4
+googletrans
